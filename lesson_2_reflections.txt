@@ -40,5 +40,11 @@ The merge algorithm tries to incorporate all relevant changes from two (or more?
 ##########
 
 
+##########
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The auto merge algo makes it easy to combine branches in simple programs with little or no manual input. In more complex scenarios it can help the programmer jump straigh to the sections of the code that require his attention, thereby saving time and mental energy. On the other hand if the programmer relies on this algo too heavily he may lost track of some of the subtle differences in the way that the code works in the different branches. After a few rounds of merging and some time away from the project, for example, he/she might lose touch with the code and have to go through it all manually and in detail to avoid potentially dangerous bugs, etc. It seems that a new developer would need some time/experience before settling on a balance that he/she feels comfortable with when using this algo in their work.
+##########
+
 
 
