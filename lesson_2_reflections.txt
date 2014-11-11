@@ -31,3 +31,14 @@ How do the diagrams help you visualize the branch structure?
 
 The subway style diagrams we are using help us build a menal model of git's commit/branch system. Each commit represents a node. Each node belongs to a branch, except those that don't. In those case we enter "detached head" mode, and git warns us of the implications. One aspect of the system that isn't made clear by the diagrams is that the "active" commit gets carried over to a new branch that is created and checked out.
 ##########
+
+
+##########
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The merge algorithm tries to incorporate all relevant changes from two (or more?) branches into one working program. This worked in our simple example, and I imagine in many simple cases this is an effective process that requires no manual cleanup. But with sufficiently complex programs this type of automatic merge seems like it could be problematic. If it cannot do the full merge on its own hopefully it makes the developer's manual cleanup effort much more efficient by taking care of the sections it is confident about and calling out the sections that require human attention. But can we trust its confidence? If we shouldn't but we do we could run into serious problems. Regarding the diagrams... again they offer a nice means for building a mental model of the flow of our repositories and the history we can expect after the merge. 
+##########
+
+
+
+
