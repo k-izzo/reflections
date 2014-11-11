@@ -17,3 +17,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 The developer may make several have worked on several logical changes since the last commit when one of those changes becomes ready to commit. Since the other changes are not ready to be committed, we do not want to include them in the commit. We also do not want to wait for everything to be ready before making a commit. This might limit the type or number of changes we would be willing to work on in any period between commits. We do not want that restriction, so we can make use of the staging area so that only the changes that are ready to commit make it into the repo (and thus the history).
 ##########
+
+
+##########
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It would be helpful to have branches when experiementing with new features that may or may not be incorporated into the program later. We can avoid some of the overhead in making both the main and experimental branches to run successful in one application until we know that we want to go that route. We may also want branches when we want to have a stable, tested version of app ready to demo but we want to keep working in the time between whenever that demo version is ready and the actual demo. We might also have different branches that run on different environments. For exmaple, when we are developing code on our local machines or AWS or whatever, but we know that eventually we will deploy on a client's machine and link to their databases, etc.
+##########
