@@ -10,3 +10,10 @@ How is the staging area different from the working directory and the repository?
 
 It seems like a nice way to separate the files that relate to the current commit from those that are related to the project but not the current commit. If we included everything in the cwd in our commits we would have a harder time sorting through the history.
 ##########
+
+
+##########
+How can you use the staging area to make sure you have one commit per logical change?
+
+The developer may make several have worked on several logical changes since the last commit when one of those changes becomes ready to commit. Since the other changes are not ready to be committed, we do not want to include them in the commit. We also do not want to wait for everything to be ready before making a commit. This might limit the type or number of changes we would be willing to work on in any period between commits. We do not want that restriction, so we can make use of the staging area so that only the changes that are ready to commit make it into the repo (and thus the history).
+##########
