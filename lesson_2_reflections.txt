@@ -1,0 +1,12 @@
+##########
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing the repo tells git that you want to treat the directory as a git repo. Once git learns this it does some setup to allow for tracking commits once you start committing. I'm not sure at the moment why this is necessary. Might the user be able to communicate the intent to establish a certain directory as a git repo as he/she makes his/her initiral commit?
+##########
+
+
+##########
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It seems like a nice way to separate the files that relate to the current commit from those that are related to the project but not the current commit. If we included everything in the cwd in our commits we would have a harder time sorting through the history.
+##########
