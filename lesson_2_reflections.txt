@@ -24,3 +24,10 @@ What are some situations when branches would be helpful in keeping your history 
 
 It would be helpful to have branches when experiementing with new features that may or may not be incorporated into the program later. We can avoid some of the overhead in making both the main and experimental branches to run successful in one application until we know that we want to go that route. We may also want branches when we want to have a stable, tested version of app ready to demo but we want to keep working in the time between whenever that demo version is ready and the actual demo. We might also have different branches that run on different environments. For exmaple, when we are developing code on our local machines or AWS or whatever, but we know that eventually we will deploy on a client's machine and link to their databases, etc.
 ##########
+
+
+##########
+How do the diagrams help you visualize the branch structure?
+
+The subway style diagrams we are using help us build a menal model of git's commit/branch system. Each commit represents a node. Each node belongs to a branch, except those that don't. In those case we enter "detached head" mode, and git warns us of the implications. One aspect of the system that isn't made clear by the diagrams is that the "active" commit gets carried over to a new branch that is created and checked out.
+##########
