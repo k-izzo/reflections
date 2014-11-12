@@ -3,3 +3,10 @@ When would you want to use a remote repository rather than keeping all your work
 
 The remote repo seems most useful when collaborating with others. Maybe with colleagues during a private project, or with the community if the project is open source. The remote repo could also be useful when we are no longer developing a project but wish to store it and make it available (and findable) for those who might be interested. Maybe there are also cases when we don't care about collaboration or sharing but the remote repo still provides value to the individual developer.
 ##########
+
+
+##########
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Changes to a branch we are working on might interfere with our work.
+##########
