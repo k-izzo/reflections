@@ -30,3 +30,8 @@ The local copy of the remote allows us to interact with the remote even when we 
 ##########
 
 
+##########
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+For simple projects I can imagine situations where it would be easier to collaborate without Git and GitHub. Maybe one person is writing the bulk of the code and another is reviewing it from time to time and making comments. In a situation like this the code can be hosted anywhere and the communication can be done via phone, chat, in-person, whatever. There is some setup/overhead required for establishing a git/GitHub like system which might be avoidable in this type of situation. This is especially true if any of the developers are not familiar with git. But for more complex projects, and especially when team memebers are working remotely and possibly in different time zones, it makes sense to use a proper version control system. And GitHub's GUI platform and automatically triggered alerts seem to complement the base git system nicely.
+##########
