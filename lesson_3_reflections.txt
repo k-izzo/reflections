@@ -21,3 +21,12 @@ Clones are a way to pull work from a remote repo onto your local machine. From t
 
 Branches are a way to manage sets related paths of a programs as they are being developed (often simultanously). They are a means to organzie code and separate features, bug fixes, whatever from the main/core/master branch that can be merged later if necessary.
 ##########
+
+
+##########
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The local copy of the remote allows us to interact with the remote even when we are not connected to the hosted/cloud version. When we know that we will be offline we can git fetch to update the local copy of the remote without actually merging the contents of the remote with our local repo. This is another intermidiary layer, maybe similar to the staging component of our local repo. It gives us more flexibility.
+##########
+
+
